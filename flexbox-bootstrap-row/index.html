@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>Flexbox Bootstrap Row</title>
+
+	<!-- Bootstrap -->
+	<link href="https://services.ricro.colostate.edu/_support/frameworks/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+	<style>
+		.vis:hover .header{background-color:#c8c8ff;}
+		.vis:hover .body{background-color:#ffff8e;}
+		.vis:hover .footer{background-color:#90cc90;}
+
+
+		body{
+			padding:30px;
+			width: 80%;
+			margin:auto;
+		}
+		.col-md-6{
+			border:1px solid #d6d6d6;
+			border-radius: 10px;
+			margin: 0.5%;
+			background-color: #f9f9f9;
+		}
+		.flex{display: flex;}
+		.flex .body{flex: 1;}
+		.flex .header, .flex .body, .flex .footer{padding: 0.5em 0;}
+		.flex-row{flex-direction: row;}
+		.flex-row-reverse{flex-direction: row-reverse;}
+		.flex-column{flex-direction: column;}
+		.flex-column-reverse{flex-direction: column-reverse;}
+
+	</style>
+</head>
+<body>
+	<div class="flex row text-center">
+		<div class="vis flex flex-column col-md-6">
+			<div class="header">
+				<strong>Sed ut Perspiciatis</strong>
+			</div>
+			<div class="body">
+				Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+			</div>
+			<div class="footer">
+				<button class="btn btn-defualt">Accept</button>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="flex-body">
+				The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex. Two driven jocks help fax my big quiz. Quick, Baz, get my woven flax jodhpurs! "Now fax quiz Jack!" my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq. Cozy sphinx waves quart jug of bad milk. A very bad quack might jinx zippy fowls. Few quips galvanized the mock jury box. Quick brown dogs jump over the lazy fox. The jay, pig, fox, zebra, and my wolves quack! Blowzy red vixens fight for a quick jump. Joaquin Phoenix was gazed by MTV for luck. A wizard’s job is to vex chumps quickly in fog. Watch "Jeopardy!", Alex Trebek's fun TV quiz game. Woven silk pyjamas exchanged for blue quartz. Brawny gods justThe quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim.
+			</div>
+		</div>
+	</div>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="https://services.ricro.colostate.edu/_support/frameworks/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
