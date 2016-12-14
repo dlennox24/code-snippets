@@ -1,0 +1,14 @@
+.flex{
+	display: flex;
+	.body{flex: 1;}
+	.header,.body,.footer{padding: 0.5em 0;}
+	&-{
+		&row,&row-reverse,&column,&column-reverse{
+			display: flex;
+		}
+		&row{flex-direction: row;}
+		&row-reverse{flex-direction: row-reverse;}
+		&column{flex-direction: column;}
+		&column-reverse{flex-direction: column-reverse;}
+	}
+}

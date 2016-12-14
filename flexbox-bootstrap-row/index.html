@@ -10,11 +10,10 @@
 	<!-- Bootstrap -->
 	<link href="https://services.ricro.colostate.edu/_support/frameworks/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 	<style>
+	/** Styling for example  (optional) **/
 		.vis:hover .header{background-color:#c8c8ff;}
 		.vis:hover .body{background-color:#ffff8e;}
 		.vis:hover .footer{background-color:#90cc90;}
-
-
 		body{
 			padding:30px;
 			width: 80%;
@@ -26,19 +25,22 @@
 			margin: 0.5%;
 			background-color: #f9f9f9;
 		}
+
+		/** Styling for the stretching the flexbox (required) **/
 		.flex{display: flex;}
+		.flex .flex-row,.flex .flex-row-reverse,.flex .flex-column,.flex .flex-column-reverse{display: flex;}
 		.flex .body{flex: 1;}
 		.flex .header, .flex .body, .flex .footer{padding: 0.5em 0;}
-		.flex-row{flex-direction: row;}
-		.flex-row-reverse{flex-direction: row-reverse;}
-		.flex-column{flex-direction: column;}
-		.flex-column-reverse{flex-direction: column-reverse;}
+		.flex .flex-row{flex-direction: row;}
+		.flex .flex-row-reverse{flex-direction: row-reverse;}
+		.flex .flex-column{flex-direction: column;}
+		.flex .flex-column-reverse{flex-direction: column-reverse;}
 
 	</style>
 </head>
 <body>
 	<div class="flex row text-center">
-		<div class="vis flex flex-column col-md-6">
+		<div class="vis flex-column col-md-6">
 			<div class="header">
 				<strong>Sed ut Perspiciatis</strong>
 			</div>
