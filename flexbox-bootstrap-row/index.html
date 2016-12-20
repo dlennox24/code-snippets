@@ -9,16 +9,12 @@
 
 	<!-- Bootstrap -->
 	<link href="https://services.ricro.colostate.edu/_support/frameworks/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="../display-css.css" rel="stylesheet">
 	<style>
 	/** Styling for example  (optional) **/
-		.vis:hover .header{background-color:#c8c8ff;}
+		.vis:hover header{background-color:#c8c8ff;}
 		.vis:hover .body{background-color:#ffff8e;}
-		.vis:hover .footer{background-color:#90cc90;}
-		body{
-			padding:30px;
-			width: 80%;
-			margin:auto;
-		}
+		.vis:hover footer{background-color:#90cc90;}
 		.col-md-6{
 			border:1px solid #d6d6d6;
 			border-radius: 10px;
@@ -30,7 +26,7 @@
 		.flex{display: flex;}
 		.flex .flex-row,.flex .flex-row-reverse,.flex .flex-column,.flex .flex-column-reverse{display: flex;}
 		.flex .body{flex: 1;}
-		.flex .header, .flex .body, .flex .footer{padding: 0.5em 0;}
+		.flex header, .flex .body, .flex footer{padding: 0.5em 0;}
 		.flex .flex-row{flex-direction: row;}
 		.flex .flex-row-reverse{flex-direction: row-reverse;}
 		.flex .flex-column{flex-direction: column;}
@@ -41,15 +37,15 @@
 <body>
 	<div class="flex row text-center">
 		<div class="vis flex-column col-md-6">
-			<div class="header">
+			<header>
 				<strong>Sed ut Perspiciatis</strong>
-			</div>
+			</header>
 			<div class="body">
 				Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
 			</div>
-			<div class="footer">
+			<footer>
 				<button class="btn btn-defualt">Accept</button>
-			</div>
+			</footer>
 		</div>
 		<div class="col-md-6">
 			<div class="flex-body">

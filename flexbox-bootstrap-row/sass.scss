@@ -1,7 +1,7 @@
 .flex{
 	display: flex;
 	.body{flex: 1;}
-	.header,.body,.footer{padding: 0.5em 0;}
+	header,.body,footer{padding: 0.5em 0;}
 	&-{
 		&row,&row-reverse,&column,&column-reverse{
 			display: flex;
