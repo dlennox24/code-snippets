@@ -1,10 +1,6 @@
-# RICRO Codebase
+# List of Code Snippets
 
-Code base of various code snippets used on RICRO related web applications and sites.
-
-## List of Code Snippets
-
-###Flexbox Bootstrap Row
+##Flexbox Bootstrap Row
 
 CSS classes and HTML structure for using flexbox within a Bootstrap row.
 
